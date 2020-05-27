@@ -27,10 +27,10 @@
     
     <item>
       <title>学习相关链接</title>
-      <link>https://lmlx66.github.io/post/%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/</link>
+      <link>https://lmlx66.github.io/post/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/</link>
       <pubDate>Wed, 20 May 2020 21:30:04 +0800</pubDate>
       
-      <guid>https://lmlx66.github.io/post/%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/</guid>
+      <guid>https://lmlx66.github.io/post/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5/</guid>
       <description>关于博客方面的链接  Hugo相关内容  Hugo官网
 Hugo中文文档
 我的主题Soho
@@ -42,6 +42,8 @@ Hugo中文文档
 git命令问题方面的查找
 github仓库代下载链接
 git命令问题方面的查找
+博客上传到码云或github theme(主题）不显示的解决方案
+Hugo博客部署到GitHub无法显示CSS、JS踩坑
   其他  markdown简答使用方法
 域名解析参考
 遇到的错误
@@ -51,10 +53,10 @@ git命令问题方面的查找
     
     <item>
       <title>Git常用命令</title>
-      <link>https://lmlx66.github.io/post/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://lmlx66.github.io/post/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Tue, 19 May 2020 17:20:39 +0800</pubDate>
       
-      <guid>https://lmlx66.github.io/post/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://lmlx66.github.io/post/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description>git常用命令 1：git初始化  Git init 初始化仓库以后会生成一个.git的文件隐藏文件，他就是你的本地仓库，他会记录你所有的行为。 git status 可以查看当前仓库的状态信息。
  2：加入暂存区  git add &amp;lt;filename(文件名)&amp;gt; 可以将某一个文件暂存区
 git add . 将所有文件加入暂存区
@@ -73,10 +75,10 @@ git reflog可以查看所有操作记录
     
     <item>
       <title>博客方法</title>
-      <link>https://lmlx66.github.io/post/hugo%E6%AD%A5%E9%AA%A4/</link>
+      <link>https://lmlx66.github.io/post/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E6%8E%A8%E9%80%81%E8%87%B3%E4%BA%91%E7%AB%AF%E6%AD%A5%E9%AA%A4/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lmlx66.github.io/post/hugo%E6%AD%A5%E9%AA%A4/</guid>
+      <guid>https://lmlx66.github.io/post/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E6%8E%A8%E9%80%81%E8%87%B3%E4%BA%91%E7%AB%AF%E6%AD%A5%E9%AA%A4/</guid>
       <description>我的hugo博客搭建过程  点击跳转我的个人博客
 1：下载 Hugo 2：用Hugo来生成博客  hugo new site xx(文件夹名)
  3：设置一个主题  themes.gohugo.io 选择主题名并进入并在themes文件夹下运行命令下载主题
@@ -93,10 +95,10 @@ git reflog可以查看所有操作记录
     
     <item>
       <title>坏银的博客创建</title>
-      <link>https://lmlx66.github.io/post/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <link>https://lmlx66.github.io/post/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Fri, 15 May 2020 10:45:03 +0800</pubDate>
       
-      <guid>https://lmlx66.github.io/post/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <guid>https://lmlx66.github.io/post/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>成功创建博客  这是我的第一篇博客文章，它标志着我成功创建博客！
 使用b站upCodeSheep的“手把手教你从0开始搭建自己的个人博客 ”| 第二种姿势 | hugo”附带上链接，点击跳转
 hugo基于go语音的hugo博客，部署于github远端服务器。</description>
