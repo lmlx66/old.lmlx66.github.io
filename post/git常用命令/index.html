@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Git常用命令 // 坏银</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.70.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://lmlx66.github.io/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git常用命令"/>
+<meta name="twitter:description" content="git常用命令 1：git初始化  Git init 初始化仓库以后会生成一个.git的文件隐藏文件，他就是你的本地仓库，他会记录你所有的行为。 git status 可以查看当前仓库的状态信息。
+ 2：加入暂存区  git add &lt;filename(文件名)&gt; 可以将某一个文件暂存区
+git add . 将所有文件加入暂存区
+git reset 退出暂存区
+ 3：提交变更到本地仓库  Git commit -m &lt;message(对提交的描述)&gt;
+git log可以查看日志
+ 4：自定义命令git的安装目录中有个gitconfig在alias中可以设置 5：回退版本reset  git reset ID可以查看版本日志
+git reflog可以查看所有操作记录
+回到最新的commit，可以直接git pull
+ 常用添加： ​ &ndash;hard 不保存所有变更
+​ &ndash;soft 保留变更且变更内容处于Staged（变绿）
+​ &ndash;mixed 保留变更且变更内容为Modified（变红）
+6：master（分支）  git checkout -b &lt;name新分支名字&gt; &lt;template以哪个分支或者commit为模板&gt;可以创建新的分支
+假如是远端的仓库 git checkout -b origin   git checkout 分支名 可以切换到其他分支"/>
+
+    <meta property="og:title" content="Git常用命令" />
+<meta property="og:description" content="git常用命令 1：git初始化  Git init 初始化仓库以后会生成一个.git的文件隐藏文件，他就是你的本地仓库，他会记录你所有的行为。 git status 可以查看当前仓库的状态信息。
+ 2：加入暂存区  git add &lt;filename(文件名)&gt; 可以将某一个文件暂存区
+git add . 将所有文件加入暂存区
+git reset 退出暂存区
+ 3：提交变更到本地仓库  Git commit -m &lt;message(对提交的描述)&gt;
+git log可以查看日志
+ 4：自定义命令git的安装目录中有个gitconfig在alias中可以设置 5：回退版本reset  git reset ID可以查看版本日志
+git reflog可以查看所有操作记录
+回到最新的commit，可以直接git pull
+ 常用添加： ​ &ndash;hard 不保存所有变更
+​ &ndash;soft 保留变更且变更内容处于Staged（变绿）
+​ &ndash;mixed 保留变更且变更内容为Modified（变红）
+6：master（分支）  git checkout -b &lt;name新分支名字&gt; &lt;template以哪个分支或者commit为模板&gt;可以创建新的分支
+假如是远端的仓库 git checkout -b origin   git checkout 分支名 可以切换到其他分支" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lmlx66.github.io/post/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" />
+<meta property="article:published_time" content="2020-05-19T17:20:39+08:00" />
+<meta property="article:modified_time" content="2020-05-19T17:20:39+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://lmlx66.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>坏银</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Git常用命令</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 19, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <h1 id="git常用命令">git常用命令</h1>
+<h3 id="1git初始化">1：git初始化</h3>
+<blockquote>
+<p>Git init 初始化仓库以后会生成一个.git的文件隐藏文件，他就是你的本地仓库，他会记录你所有的行为。
+git status 可以查看当前仓库的状态信息。</p>
+</blockquote>
+<h3 id="2加入暂存区">2：加入暂存区</h3>
+<blockquote>
+<p>git add &lt;filename(文件名)&gt; 可以将某一个文件暂存区</p>
+<p>git add . 将所有文件加入暂存区</p>
+<p>git reset <!-- raw HTML omitted --> 退出暂存区</p>
+</blockquote>
+<h3 id="3提交变更到本地仓库">3：提交变更到本地仓库</h3>
+<blockquote>
+<p>Git commit -m &lt;message(对提交的描述)&gt;</p>
+<p>git log可以查看日志</p>
+</blockquote>
+<h3 id="4自定义命令git的安装目录中有个gitconfig在alias中可以设置">4：自定义命令git的安装目录中有个gitconfig在alias中可以设置</h3>
+<h3 id="5回退版本reset">5：回退版本reset</h3>
+<blockquote>
+<p>git reset <!-- raw HTML omitted --> ID可以查看版本日志</p>
+<p>git reflog可以查看所有操作记录</p>
+<p>回到最新的commit，可以直接git pull</p>
+</blockquote>
+<h4 id="常用添加">常用添加：</h4>
+<p>​    &ndash;hard 不保存所有变更</p>
+<p>​    &ndash;soft 保留变更且变更内容处于Staged（变绿）</p>
+<p>​    &ndash;mixed 保留变更且变更内容为Modified（变红）</p>
+<h3 id="6master分支">6：master（分支）</h3>
+<blockquote>
+<p>git checkout -b &lt;name新分支名字&gt; &lt;template以哪个分支或者commit为模板&gt;可以创建新的分支</p>
+<p>假如是远端的仓库 git checkout -b <!-- raw HTML omitted --> origin <!-- raw HTML omitted --></p>
+</blockquote>
+<blockquote>
+<p>git checkout 分支名 可以切换到其他分支</p>
+<p>git branch 可以查看所有分支，高亮是当前所处的分支。</p>
+<p>git checkout <!-- raw HTML omitted --> 就可以不查找id来切换版本</p>
+</blockquote>
+<h3 id="7merge-合并">7：merge （合并）</h3>
+<blockquote>
+<p>git merge <!-- raw HTML omitted --> 合并分支变更</p>
+</blockquote>
+<h3 id="8remote远程仓库">8：remote（远程仓库）</h3>
+<blockquote>
+<p>Git push -setup-stream origin（远端仓库） （masterName）</p>
+</blockquote>
+<p>设置上流分支</p>
+<p>​    将远程仓库的分支作为本地的分支的上流分支</p>
+<p>​    输入以后的的效果就是在远程仓库中增加了一个分支</p>
+<blockquote>
+<p>git fetch 拉取远程仓库信息，只是获知，但是本地不会复制过来</p>
+</blockquote>
+<h3 id="9git-pull">9：git pull</h3>
+<blockquote>
+<p>它可以将云端与本地仓库同步</p>
+</blockquote>
+<h3 id="10rebase变基">10：rebase变基</h3>
+<blockquote>
+<p>（重新排列commit=base）</p>
+</blockquote>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
