@@ -106,18 +106,8 @@ git reflog可以查看所有操作记录
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://lmlx66.github.io/post/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E6%8E%A8%E9%80%81%E8%87%B3%E4%BA%91%E7%AB%AF%E6%AD%A5%E9%AA%A4/</guid>
-      <description>我的hugo博客搭建过程  点击跳转我的个人博客
-1：下载 Hugo 2：用Hugo来生成博客  hugo new site xx(文件夹名)
- 3：设置一个主题  themes.gohugo.io 选择主题名并进入并在themes文件夹下运行命令下载主题
- 4：在本地启动博客  hugo server -t (主题名) &amp;ndash;buildDrafts
- 5：写文章  hugo new post/blog.md 创建一个post的文件夹并创建blog的文件（目录为content）
- 6：将个人博客部署在远端服务器 注意网址名字必须是自己昵称。  lmlx66.github.io
- 7：部署，命令会生成一个public的文件夹  hugo &amp;ndash;theme=(主题名) &amp;ndash;baseUrl=&amp;quot;https://lmlx66.github.io/&amp;rdquo; &amp;ndash;buildDrafts
- 8：public传入远端仓库（在public里面进行操作）  git init
-  git add .
-  git commit -m &amp;ldquo;我的hogu文件第一次提交&amp;rdquo;
- 9：进行关联,远端挂入  git remote add origin https://github.com/lmlx66/lmlx66.github.io.git
- 10：推出 git push -u origin master</description>
+      <description>我的hugo博客搭建过程 点击跳转我的个人博客
+1：下载 Hugo 2：用Hugo来生成博客 hugo new site xx(文件夹名) 3：设置一个主题 themes.gohugo.io 选择主题名并进入并在themes文件夹下运行命令下载主题4：在本地启动博客 hugo server -t (主题名) --buildDrafts5：写文章 hugo new post/blog.md 创建一个post的文件夹并创建blog的文件（目录为content）6：将个人博客部署在远端服务器 注意网址名字必须是自己昵称。 lmlx66.github.io7：部署，命令会生成一个public的文件夹 hugo --theme=(主题名) --baseUrl=&amp;quot;https://lmlx66.github.io/&amp;quot; --buildDrafts8：public传入远端仓库（在public里面进行操作） git initgit add .git commit -m &amp;quot;我的hogu文件第一次提交&amp;quot;9：进行关联,远端挂入 git remote add origin https://github.com/lmlx66/lmlx66.github.io.git10：推出 git push -u origin master git push -u origin master -f 强制同步删除关联库git remote rm origin可以通过版如下命令进行代码合并【注：pull=fetch+merge]git pull --rebase origin master</description>
     </item>
     
     <item>
