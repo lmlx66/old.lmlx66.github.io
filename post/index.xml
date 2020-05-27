@@ -6,10 +6,35 @@
     <description>Recent content in Posts on 坏银</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2020 17:12:09 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 21:53:38 +0800</lastBuildDate>
     
 	<atom:link href="https://lmlx66.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Solo</title>
+      <link>https://lmlx66.github.io/post/solo/</link>
+      <pubDate>Wed, 27 May 2020 21:53:38 +0800</pubDate>
+      
+      <guid>https://lmlx66.github.io/post/solo/</guid>
+      <description>💡 简介  [Solo](https://link.hacpai.com/forward?goto=https%3A%2F%2Fsolo.b3log.org是一款小而美的开源博客系统，专为程序员设计。Solo 有着非常活跃的社区，可将文章作为帖子推送到社区，来自社区的回帖将作为博客评论进行联动（具体细节请浏览 B3log 构思 - 分布式社区网络）。
+ 这是一种全新的网络社区体验，让热爱记录和分享的你不再感到孤单！
+ 🗃 案例 https://hacpai.com/top/solo
+✨ 功能 Markdown 编辑器支持三种编辑模式：所见即所得 / 即时渲染 / 分屏预览
+标签聚合分类
+自定义导航链接
+随机文章 / 相关文章 / 置顶 / 更新提醒
+自定义文章永久链接 / 签名档
+配置站点 SEO 参数 / 公告 / 页脚
+代码高亮 / 数学公式 / 流程图 / 五线谱
+多皮肤，多端适配
+多语言 / 国际化
+友情链接管理
+多用户写作，团队博客
+Hexo / Jekyll / Markdown 导入
+SQL / JSON / Markdown 导出
+Atom / RSS / Sitemap</description>
+    </item>
     
     <item>
       <title>图床</title>
